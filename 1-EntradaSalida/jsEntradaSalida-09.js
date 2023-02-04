@@ -5,17 +5,12 @@ mostrar el importe con un aumento del 10 %
 en el cuadro de texto "RESULTADO".*/
 function aumento()
 {
-	let sueldo;
-	
-	let aumento;
-	
-	let resultado;
-	
-	sueldo = document.getElementById("txtIdSueldo").value;
-	sueldo = parseInt(sueldo);
-	
-	aumento = sueldo * 0,1;
-	resultado = sueldo + aumento;
-	
-	document.getElementById("txtIdSueldo").value = resultado;
+	let numeroIngresado;
+    let resultado;
+    let porcentajeAmodificar;
+
+    porcentajeAmodificar = 10 / 100;
+    numeroIngresado = parseInt(document.getElementById("txtIdImporte").value);
+    resultado = numeroIngresado + (numeroIngresado * porcentajeAmodificar);
+    document.getElementById("txtIdResultado").value = resultado;
 }
