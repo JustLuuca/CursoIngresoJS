@@ -1,6 +1,11 @@
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
+	let numRandom;
+	let mensaje;
 
+	numRandom = Math.ceil(Math.random()*10);
+
+	mensaje = "Numero random " + numRandom;
+	
+	alert(mensaje);
 }//FIN DE LA FUNCIÓN
