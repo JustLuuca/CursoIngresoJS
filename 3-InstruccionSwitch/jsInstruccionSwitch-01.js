@@ -16,7 +16,7 @@ function mostrar()
 			mensaje = "se vienen las vacaciones!!!"
 			break;
 		case "Diciembre":
-			mensaje = "felices fiestas!!!";
+			mensaje = "felices fiestas!!!"
 			break;
 				
 			
