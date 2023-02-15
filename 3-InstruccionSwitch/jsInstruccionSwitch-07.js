@@ -1,7 +1,4 @@
-/*bariloche oeste
-cataratas norte
-ushuaia sur
-mardel este*/
+
 
 function mostrar()
 {
