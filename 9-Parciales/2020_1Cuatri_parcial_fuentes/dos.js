@@ -83,7 +83,7 @@ function mostrar()
       {
         descuento = 0;
       }
-      if (acumuladorCal > acumuladorArena && acumuladorCal > acumuladorCemento) 
+      if(acumuladorCal > acumuladorArena && acumuladorCal > acumuladorCemento) 
       {
         mayorTipoDeBolsa = "cal";
       }
