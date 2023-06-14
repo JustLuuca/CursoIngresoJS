@@ -1,8 +1,9 @@
-/*
+/*Luca Javier Garcete
 Al presionar el  botón, 
 se debe mostrar un mensaje como el siguiente "Esto funciona de maravilla"*/
 function mostrar()
 {
-	alert("Aguante River");
+
+	alert("Esto funciona de maravilla");
 }
 
